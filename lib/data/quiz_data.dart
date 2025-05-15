@@ -51,7 +51,7 @@ final List<Question> questions = [
   Question(text: 'O conector ATX de 24 pinos fornece energia para:', options: ['Placa de vídeo', 'Placa-mãe', 'HD externo', 'Placa de som'], correctAnswer: 'Placa-mãe', category: category2),
   Question(text: 'O cooler deve ser encaixado:', options: ['Em qualquer posição', 'Firmemente sobre o processador com pasta térmica', 'No slot PCI', 'Na parte de trás do gabinete'], correctAnswer: 'Firmemente sobre o processador com pasta térmica', category: category2),
   Question(text: 'Qual cabo conecta a fonte ao HD?', options: ['HDMI', 'USB', 'EPS', 'Molex ou SATA de energia'], correctAnswer: 'Molex ou SATA de energia', category: category2),
-  Question(text: 'O slot PCIe é utilizado para:', options: ['Fonte de alimentação', 'HD', 'Placa de vídeo', 'Placa de rede'], correctAnswer: 'Placa de vídeo', category: category2),
+  Question(text: 'O slot PCIe é utilizado para:', options: ['Processador', 'HD', 'Placa de vídeo', 'Placa de rede'], correctAnswer: 'Placa de vídeo', category: category2),
 
   // Categoria 3: Desempenho e Funcionamento
   Question(text: 'A placa de vídeo é o componente que mais influencia o desempenho de jogos.', options: ['Fonte', 'RAM', 'Placa de vídeo', 'HD'], correctAnswer: 'Placa de vídeo', category: category3),
