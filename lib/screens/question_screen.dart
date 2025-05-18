@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/screens/category_selection_screen.dart';
 import 'dart:math';
 import '../models/category.dart';
 import '../models/question.dart';
@@ -146,12 +147,11 @@ class _QuestionScreenState extends State<QuestionScreen> {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop();
-                if (_questionIndex < _questions.length - 1) {
-                  _nextQuestion();
-                } else {
-                  Navigator.of(context).pop(); // Voltar para a tela de categorias ou outra tela final
-                }
+
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => const CategorySelectionScreen()),
+                );
               },
               child: const Text('OK'),
             ),

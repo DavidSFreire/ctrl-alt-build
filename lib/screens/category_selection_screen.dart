@@ -22,7 +22,7 @@ class CategorySelectionScreen extends StatelessWidget {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-              Color(0xFFE0F2F1), // Tom de verde claro
+              Color.fromARGB(255, 179, 219, 217), // Tom de verde claro
               Colors.white,
             ],
           ),
@@ -61,7 +61,7 @@ class CategorySelectionScreen extends StatelessWidget {
           borderRadius: BorderRadius.circular(10.0),
           border: Border.all(
             color: borderColor,
-            width: 3.0,
+            width: 7.0,
           ),
         ),
         child: Center(
@@ -82,11 +82,11 @@ class CategorySelectionScreen extends StatelessWidget {
   // Função para definir a cor da borda com base no índice
   Color _getBorderColor(int index) {
     const List<Color> colors = [
+      Colors.blueAccent,
       Colors.green,
-      Colors.blue,
-      Colors.orange,
-      Colors.red,
-      Colors.purple,
+      Colors.purpleAccent,
+      Color.fromARGB(255, 255, 230, 0),
+      Colors.redAccent,
     ];
     return colors[index % colors.length]; // Garante que as cores se repitam se houver mais categorias
   }
