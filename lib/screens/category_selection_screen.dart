@@ -18,14 +18,7 @@ class CategorySelectionScreen extends StatelessWidget {
       ),
       body: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient( // Fundo com gradiente sutil
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Color(0xFFE0F2F1), // Tom de verde claro
-              Colors.white,
-            ],
-          ),
+          color: Color(0xFF222831), // Fundo escuro, similar ao da imagem
         ),
         child: GridView.builder(
           padding: const EdgeInsets.all(16.0),
@@ -61,7 +54,7 @@ class CategorySelectionScreen extends StatelessWidget {
           borderRadius: BorderRadius.circular(10.0),
           border: Border.all(
             color: borderColor,
-            width: 3.0,
+            width: 7.0,
           ),
         ),
         child: Center(
@@ -82,11 +75,11 @@ class CategorySelectionScreen extends StatelessWidget {
   // Função para definir a cor da borda com base no índice
   Color _getBorderColor(int index) {
     const List<Color> colors = [
+      Colors.blueAccent,
       Colors.green,
-      Colors.blue,
-      Colors.orange,
-      Colors.red,
-      Colors.purple,
+      Colors.purpleAccent,
+      Color.fromARGB(255, 255, 230, 0),
+      Colors.redAccent,
     ];
     return colors[index % colors.length]; // Garante que as cores se repitam se houver mais categorias
   }
