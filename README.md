@@ -1,8 +1,6 @@
 
 # Ctrl+Alt+Build
 
-[![Build](https://github.com/DavidSFreire/ctrl-alt-build/actions/workflows/flutter.yml/badge.svg)](https://github.com/DavidSFreire/ctrl-alt-build/actions)
-
 Ctrl+Alt+Build é um aplicativo de perguntas e respostas educativas, desenvolvido como parte de um **jogo de tabuleiro** com o mesmo nome. O principal objetivo é ensinar, de forma lúdica, sobre **montagem de computadores** e os principais componentes de hardware.
 
 ---
@@ -13,10 +11,15 @@ Durante uma **feira de games**, criamos este aplicativo como uma ferramenta de a
 
 ---
 
-## 🖼️ Imagem Ilustrativa
+## 🖼️ Imagens Ilustrativas
+
+<p align="center">
+  <img src="build\flutter_assets\samples\inicio.jpg" alt="Print 1" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
+  <img src="build\flutter_assets\samples\home.jpg" alt="Print 2" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
+  <img src="build\flutter_assets\samples\pergunta.jpg" alt="Print 3" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
+</p>
 
 
----
 
 ## 🕹️ Como Funciona
 
@@ -84,7 +87,7 @@ lib/
 
 Baixe o APK e experimente o Ctrl+Alt+Build no seu dispositivo Android:
 
-👉 [**Clique aqui para baixar o APK**](https://www.download.com/ctrl-alt-build-apk) *(link fictício — substitua pelo real)*
+👉 [**Clique aqui para baixar o APK**](https://drive.google.com/file/d/1qjGUlDITnArykfeF3rX5WhVBZody2Gdw/view?usp=sharing) 
 
 ---
 
