@@ -14,9 +14,9 @@ Durante uma **feira de games**, criamos este aplicativo como uma ferramenta de a
 ## 🖼️ Imagens Ilustrativas
 
 <p align="center">
-  <img src="build\flutter_assets\samples\inicio.jpg" alt="Print 1" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
-  <img src="build\flutter_assets\samples\home.jpg" alt="Print 2" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
-  <img src="build\flutter_assets\samples\pergunta.jpg" alt="Print 3" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
+  <img src="lib\screemshots\inicio.jpg" alt="Print 1" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
+  <img src="lib\screemshots\home.jpg" alt="Print 2" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
+  <img src="lib\screemshots\pergunta.jpg" alt="Print 3" width="200" style="margin: 10px; border: 1px solid #ccc; border-radius: 10px; height: 400px; object-fit: cover;" />
 </p>
 
 

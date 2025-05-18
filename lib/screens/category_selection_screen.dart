@@ -18,7 +18,14 @@ class CategorySelectionScreen extends StatelessWidget {
       ),
       body: Container(
         decoration: const BoxDecoration(
-          color: Color(0xFF222831), // Fundo escuro, similar ao da imagem
+          gradient: LinearGradient( // Fundo com gradiente sutil
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [
+              Color.fromARGB(255, 179, 219, 217), // Tom de verde claro
+              Colors.white,
+            ],
+          ),
         ),
         child: GridView.builder(
           padding: const EdgeInsets.all(16.0),
