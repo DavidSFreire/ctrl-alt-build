@@ -32,6 +32,7 @@ Question(text: 'Qual componente pode causar "gargalo" se for muito lento em rela
 Question(text: 'O que é dual-channel na memória RAM?', options: ['Usar dois pentes de RAM para dobrar a largura de banda', 'Ter dois HDs instalados', 'Usar duas placas de vídeo', 'Conectar dois monitores'], correctAnswer: 'Usar dois pentes de RAM para dobrar a largura de banda', category: category1),
 
   // Categoria 2: Montagem de Computadores
+
 Question(text: 'Qual é o primeiro passo recomendado ao montar um computador?', options: ['Ligar a fonte na tomada', 'Tocar todos os componentes sem proteção', 'Usar uma pulseira antiestática', 'Instalar o sistema operacional'], correctAnswer: 'Usar uma pulseira antiestática', category: category2),
 Question(text: 'Em qual componente o processador é instalado?', options: ['Slot de memória RAM', 'Soquete da placa-mãe', 'Porta SATA do HD', 'Entrada PCI da placa de vídeo'], correctAnswer: 'Soquete da placa-mãe', category: category2),
 Question(text: 'Qual cabo é usado para conectar o HD ou SSD à placa-mãe?', options: ['Cabo HDMI', 'Cabo SATA', 'Cabo USB', 'Cabo de força'], correctAnswer: 'Cabo SATA', category: category2),
@@ -52,6 +53,7 @@ Question(text: 'O que é RAID em montagem de computadores?', options: ['Um tipo 
 Question(text: 'Qual componente NÃO é essencial para montar um PC básico?', options: ['Placa de vídeo dedicada', 'Placa-mãe', 'Fonte de alimentação', 'Processador'], correctAnswer: 'Placa de vídeo dedicada', category: category2),
 Question(text: 'O que indica um LED vermelho na placa-mãe durante a inicialização?', options: ['Problema de hardware (consultar manual para código específico)', 'Tudo está funcionando perfeitamente', 'O sistema operacional está carregando', 'Nenhum significado importante'], correctAnswer: 'Problema de hardware (consultar manual para código específico)', category: category2),
 Question(text: 'Qual a principal vantagem de organizar os cabos internos do gabinete?', options: ['Melhor fluxo de ar e manutenção mais fácil', 'Deixar o computador mais bonito', 'Aumentar a velocidade da internet', 'Nenhuma vantagem real'], correctAnswer: 'Melhor fluxo de ar e manutenção mais fácil', category: category2),
+ 
 
   // Categoria 3: Desempenho e Funcionamento
 Question(text: 'Qual fator NÃO afeta diretamente o desempenho geral de um computador?', options: ['Velocidade do processador', 'Quantidade de memória RAM', 'Tamanho do gabinete', 'Tipo de armazenamento (HDD/SSD)'], correctAnswer: 'Tamanho do gabinete', category: category3),
