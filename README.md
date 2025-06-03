@@ -113,4 +113,4 @@ Baixe o APK e experimente o Ctrl+Alt+Build no seu dispositivo Android:
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a MIT License
+Este projeto está licenciado sob a MIT License..
